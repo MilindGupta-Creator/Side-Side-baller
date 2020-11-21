@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   }
+
+body{
+    height: 100vh;
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+   /* making the content at center perfectly*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board{
+    background-color: rgba(170, 18, 112, 0.712);
+    height: 85vh;
+    width: 80vw;
+    border-radius: 10px;
+
+}
+
+/* making a circle */
+.ball{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    position: fixed;
+    top: 45vh;
+    left: 50vw;
+}
+
